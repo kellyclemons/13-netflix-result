@@ -9,6 +9,7 @@
 
 
 
+
 // *** USER CONTENT ON NETFLIX PAGE STYLING ***
 
 // * TOP SEARCH BAR SECTION *
@@ -17,24 +18,34 @@
 
 
 .section-top {
-  background: red;
   flex-grow: 1;
 };
 
 .search-bar {
   display: flex;
-
   flex-direction: row;
+
   justify-content: space-between;
-  background: green;
+  padding-right: 1rem;
+  padding-left: 1rem;
+
+  // background: $c-lightgrey;
   line-height: 3rem;
-  margin: 2
 }
 
 .search-bar__title {
+  color: $c-greylink;
 
+}
 
-  background: blue;
+.search-bar__button {
+  margin-right: -1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  background: $c-primary;
+  color: $c-white;
+  // border-top-right-radius: rem;
+  // transform: translateX(1rem);
 }
 
 // * MIDDLE LEFT MOVIE INFO SECTION *
