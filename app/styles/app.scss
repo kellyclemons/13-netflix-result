@@ -5,8 +5,40 @@
 // @import 'font-awesome';
 @import 'box-sizing';
 @import 'css-resets';
-@import 'double-container'
+@import 'double-container';
+
+
 
 // *** USER CONTENT ON NETFLIX PAGE STYLING ***
+
+// * TOP SEARCH BAR SECTION *
 //
-// * SEARCH BAR *
+
+
+
+.section-top {
+  background: red;
+  flex-grow: 1;
+};
+
+.search-bar {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  background: green;
+  line-height: 3rem;
+  margin: 2
+}
+
+.search-bar__title {
+
+
+  background: blue;
+}
+
+// * MIDDLE LEFT MOVIE INFO SECTION *
+
+// * MIDDLE RIGHT MOVIE INFO SECTION *
+
+// * BOTTOM MOVIE INFO SECTION *
