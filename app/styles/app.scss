@@ -108,12 +108,22 @@ body {
   padding-bottom: 0.5rem;
 }
 
-.big-text-item {
+.summary-item {
   margin: 0;
-  padding: 0.5rem;
+  padding: 0;
 }
 
-.small-text-item {
+.actors-item {
   margin: 0;
-  padding: 0.5rem;
+  padding: 0;
+}
+
+.summary-text {
+  margin: 0;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.actors-text {
+  margin: 0;
+  padding: 0.5rem 0 0.5rem 0;
 }
