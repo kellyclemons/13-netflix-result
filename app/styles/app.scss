@@ -25,11 +25,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-right: 1rem;
-  padding-left: 1rem;
-
-  line-height: 2rem;
-
 }
 
 .search-bar__title {
@@ -38,11 +33,10 @@ body {
 }
 
 .search-bar__button {
-  margin-right: -1rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding: 0.3rem;
   background: $c-primary;
   color: $c-white;
+  border-style: none;
 }
 
 // * AFTER SEARCH CONTAINER
