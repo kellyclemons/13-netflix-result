@@ -34,6 +34,7 @@ body {
 
 .search-bar__title {
   color: $c-greylink;
+  border-style: none;
 }
 
 .search-bar__button {
@@ -44,6 +45,10 @@ body {
   color: $c-white;
 }
 
+// * AFTER SEARCH CONTAINER
+//
+
+
 
 // * MIDDLE SECTION *
 //
@@ -51,6 +56,7 @@ body {
 .section-middle {
   display: flex;
   flex-grow: 1;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding-bottom: 4.5rem;
   background: $c-lightgrey;
@@ -92,6 +98,7 @@ body {
   height: 100%;
   margin-top: 1.8rem;
   margin-right: 2rem;
+  padding-left: 1rem;
 }
 
 
