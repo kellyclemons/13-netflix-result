@@ -1,6 +1,130 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
 @import 'box-sizing';
+@import 'css-resets';
+@import 'double-container';
+
+body {
+  background: $c-black;
+}
+
+// *** USER CONTENT ON NETFLIX PAGE STYLING ***
+
+// * TOP SEARCH BAR SECTION *
+//
+
+.section-top {
+  flex-grow: 1;
+  background: $c-white;
+};
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.search-bar__title {
+  color: $c-greylink;
+  border-style: none;
+}
+
+.search-bar__button {
+  padding: 0.3rem;
+  background: $c-primary;
+  color: $c-white;
+  border-style: none;
+}
+
+// * AFTER SEARCH CONTAINER
+//
+
+
+
+// * MIDDLE SECTION *
+//
+
+.section-middle {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 4.5rem;
+  background: $c-lightgrey;
+}
+
+.section-middle__left {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  line-height: 2rem;
+}
+
+.movie-info__name {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.movie-info__genre {
+  margin: 0;
+  line-height: 3rem;
+}
+
+.rating__number {
+  margin: 0;
+  line-height: 3rem;
+}
+
+.fa-star {
+  padding-left: 0.5rem;
+}
+
+
+// * MIDDLE RIGHT MOVIE INFO SECTION *
+//
+.movie-info__image {
+  width: 20rem;
+  height: 100%;
+  margin-top: 1.8rem;
+  margin-right: 2rem;
+  padding-left: 1rem;
+}
+
+
+// * BOTTOM MOVIE INFO SECTION *
+//
+.section-bottom {
+  margin: 0;
+  padding-left: 1rem;
+  background: $c-lightgrey;
+}
+
+.movie-details {
+  margin-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.summary-item {
+  margin: 0;
+  padding: 0;
+}
+
+.actors-item {
+  margin: 0;
+  padding: 0;
+}
+
+.summary-text {
+  margin: 0;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.actors-text {
+  margin: 0;
+  padding: 0.5rem 0 0.5rem 0;
+}

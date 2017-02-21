@@ -1,15 +1,58 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>13-netflix-result</title>
+  <script src="https://use.fontawesome.com/99a45964a8.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="/app.css">
 </head>
+
 <body>
-  <!-- ch ch changes -->
+  <main>
+    <div class="container">
 
+      <!-- Top Search Bar Section -->
+      <section class="section-top">
+        <nav class="search-bar">
+          <input type="text" class="search-bar__title">
+          <!-- <div class="search-bar__title">Movie Title</div> -->
+          <button class="search-bar__button">Search</button>
+        </nav>
+      </section>
 
+      <section class="section-middle">
+        <!-- Middle Left Movie Info Section -->
+
+        <section class="section-middle__left">
+          <div class="movie-info">
+            <h1 class="movie-info__name">Attack on Titan</h1>
+            <h4 class="movie-info__genre">Anime</h4>
+            <h3 class="rating__number">4.6<span class="fa fa-star" aria-hidden="true"></span></h3>
+          </div>
+        </section>
+
+        <!-- Middle Right Movie Info Section -->
+        <img class="movie-info__image" src="https://lh3.googleusercontent.com/jIVzwjkgi7RzajXFCcnTRLNtFrmXiT73oCQJwmLXAZRr6AXWE_nuLO8nf8Mvf3sdizja=w1264" alt="">
+
+      </section>
+
+      <!-- Bottom Movie Info Section -->
+
+      <section class="section-bottom">
+        <div class="movie-details">
+          <h1 class="summary-item">Summary</h1>
+          <h6 class="summary-text">For over a century, people have been living behind barricades to block out the giant Titans that threaten to destroy the human race. When a Titan destroys his hometown, young Eren Yeager becomes determind to fight back.</h6>
+          <h1 class="actors-item">Actors</h1>
+          <h6 class="actors-text">Yuki Kaji, Yui Ishikawa, Marina Inoue, Daisuke Ono, Hiro Shimono, Hiroshi Kamiya, Keiji Fujwara, Kisho Taniyama, Romi Park, Ryota Ohsaka</h6>
+        </div>
+      </section>
+
+    </div>
+  </main>
 
   <script src="/app.js" charset="utf-8"></script>
 </body>
+
 </html>
